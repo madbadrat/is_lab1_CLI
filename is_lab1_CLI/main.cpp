@@ -29,7 +29,6 @@ int main()
             cout << "Цель кредита: " << Products[i]->GetPurpose() << endl;
             cout << "Ежемесячный платеж: " << Products[i]->GetPayment() << endl;
             cout << "Размер переплаты: " << Products[i]->GetOverpayment() << endl;
-            cout << "Степень доверия данному предложению: " << Products[i]->GetTrustMeasure() << endl;
             cout << "------------------------------" << endl;
         }
     }
